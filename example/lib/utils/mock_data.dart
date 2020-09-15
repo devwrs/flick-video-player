@@ -24,5 +24,13 @@ Map<String, dynamic> mockData = {
       "trailer_url":
           " https://github.com/GeekyAnts/flick-video-player-demo-videos/blob/master/example/9th_may_compressed.mp4?raw=true",
     },
+    {
+      "name": "WV: Secure UHD (MP4,H265)",
+      "uri":
+          "https://storage.googleapis.com/wvmedia/cenc/hevc/tears/tears_uhd.mpd",
+      "drm_scheme": "widevine",
+      "drm_license_url":
+          "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+    },
   ]
 };

@@ -1,0 +1,4 @@
+#Tue Sep 15 22:18:21 CST 2020
+base.0=/Users/robs/IdeaProjects/flick-video-player/example/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
