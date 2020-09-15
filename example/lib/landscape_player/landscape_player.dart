@@ -30,7 +30,7 @@ class _LandscapePlayerState extends State<LandscapePlayer> {
       ad_tag_uri: mockData["items"][4]["ad_tag_uri,"],
       spherical_stereo_mode: mockData["items"][4]["spherical_stereo_mode,"],
       playlist: mockData["items"][4]["playlist"],
-    ));
+    )));
   }
 
   @override
