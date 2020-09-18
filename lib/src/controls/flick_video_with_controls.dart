@@ -1,8 +1,7 @@
+import 'package:drm_wv_fp_player/drm_wv_fp_player.dart';
 import 'package:flutter/material.dart';
 import 'package:flick_video_player/flick_video_player.dart';
 import 'package:provider/provider.dart';
-
-import 'video_player_controller.dart';
 
 /// Default Video with Controls.
 ///

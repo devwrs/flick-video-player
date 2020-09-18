@@ -1,9 +1,8 @@
+import 'package:drm_wv_fp_player/drm_wv_fp_player.dart';
 import 'package:flick_video_player/flick_video_player.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
-
-import '../controls/video_player_controller.dart';
 
 /// Renders progress bar for the video using custom paint.
 class FlickVideoProgressBar extends StatelessWidget {

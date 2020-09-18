@@ -1,3 +1,5 @@
+import 'package:flick_video_player/flick_video_player.dart';
+
 Map<String, dynamic> mockData = {
   "items": [
     {
@@ -32,5 +34,24 @@ Map<String, dynamic> mockData = {
       "drm_license_url":
           "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
     },
+    {
+      "name": "WV: Secure SD (MP4,H265)",
+      "uri":
+          "https://storage.googleapis.com/wvmedia/cenc/hevc/tears/tears_sd.mpd",
+      "drm_scheme": "widevine",
+      "drm_license_url":
+          "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+    },
   ]
 };
+
+MediaContent mediaContent = MediaContent(
+name: "WV: Secure SD (MP4,H265)",
+uri: "https://storage.googleapis.com/wvmedia/cenc/hevc/tears/tears_sd.mpd",
+extension: null,
+drm_scheme: "widevine",
+drm_license_url: "https://proxy.uat.widevine.com/proxy?provider=widevine_test",
+ad_tag_uri: null,
+spherical_stereo_mode: null,
+playlist: null,
+);

@@ -1,9 +1,8 @@
 library flick_manager;
 
 import 'dart:async';
+import 'package:drm_wv_fp_player/drm_wv_fp_player.dart';
 import 'package:flutter/material.dart';
-
-import '../controls/video_player_controller.dart';
 
 part 'video_manager.dart';
 part 'control_manager.dart';

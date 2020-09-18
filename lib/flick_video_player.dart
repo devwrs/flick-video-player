@@ -30,6 +30,6 @@ export './src/widgets/helpers/auto_play_timer_progress/auto_play_timer_progress.
 export './src/controls/flick_video_with_controls.dart';
 export './src/controls/flick_portrait_controls.dart';
 export './src/controls/flick_landscape_controls.dart';
-export './src/controls/video_player_controller.dart';
 
-export './src/models/media_content.dart';
+export 'package:drm_wv_fp_player/drm_wv_fp_player.dart';
+export 'package:drm_wv_fp_player/model/secured_video_content.dart';

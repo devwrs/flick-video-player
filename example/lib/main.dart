@@ -36,11 +36,11 @@ class Examples extends StatefulWidget {
 
 class _ExamplesState extends State<Examples> {
   final List<Map<String, dynamic>> samples = [
-    // {'name': 'Default player', 'widget': DefaultPlayer()},
-    // {'name': 'Animation player', 'widget': Expanded(child: AnimationPlayer())},
-    // {'name': 'Feed player', 'widget': Expanded(child: FeedPlayer())},
-    // {'name': 'Custom orientation player', 'widget': CustomOrientationPlayer()},
+    {'name': 'Default player', 'widget': DefaultPlayer()},
     {'name': 'Landscape player', 'widget': LandscapePlayer()},
+    {'name': 'Animation player', 'widget': Expanded(child: AnimationPlayer())},
+    {'name': 'Feed player', 'widget': Expanded(child: FeedPlayer())},
+    {'name': 'Custom orientation player', 'widget': CustomOrientationPlayer()},
   ];
 
   int selectedIndex = 0;

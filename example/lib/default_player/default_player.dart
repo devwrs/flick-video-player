@@ -12,13 +12,15 @@ class DefaultPlayer extends StatefulWidget {
 
 class _DefaultPlayerState extends State<DefaultPlayer> {
   FlickManager flickManager;
+  MediaContent _mediaContent = mediaContent;
+
   @override
   void initState() {
     super.initState();
     flickManager = FlickManager(
       videoPlayerController:
-          VideoPlayerController.network(mockData["items"][0]["trailer_url"]),
-    );
+          //VideoPlayerController.network(mockData["items"][0]["trailer_url"]),
+      VideoPlayerController.exoplayerMeidaFrameWork(_mediaContent));
   }
 
   @override

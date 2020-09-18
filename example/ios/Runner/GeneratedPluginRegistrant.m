@@ -4,10 +4,10 @@
 
 #import "GeneratedPluginRegistrant.h"
 
-#if __has_include(<video_player/FLTVideoPlayerPlugin.h>)
-#import <video_player/FLTVideoPlayerPlugin.h>
+#if __has_include(<drm_wv_fp_player/DrmWvFpPlayerPlugin.h>)
+#import <drm_wv_fp_player/DrmWvFpPlayerPlugin.h>
 #else
-@import video_player;
+@import drm_wv_fp_player;
 #endif
 
 #if __has_include(<wakelock/WakelockPlugin.h>)
@@ -19,7 +19,7 @@
 @implementation GeneratedPluginRegistrant
 
 + (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry {
-  [FLTVideoPlayerPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTVideoPlayerPlugin"]];
+  [DrmWvFpPlayerPlugin registerWithRegistrar:[registry registrarForPlugin:@"DrmWvFpPlayerPlugin"]];
   [WakelockPlugin registerWithRegistrar:[registry registrarForPlugin:@"WakelockPlugin"]];
 }
 

@@ -14,6 +14,7 @@ class LandscapePlayer extends StatefulWidget {
 
 class _LandscapePlayerState extends State<LandscapePlayer> {
   FlickManager flickManager;
+  MediaContent _mediaContent = mediaContent;
 
   @override
   void initState() {
@@ -21,16 +22,7 @@ class _LandscapePlayerState extends State<LandscapePlayer> {
     flickManager = FlickManager(
         videoPlayerController:
             //VideoPlayerController.network(mockData["items"][2]["trailer_url"]));
-            VideoPlayerController.exoplayerMeidaFrameWork(MediaContent(
-      name: mockData["items"][4]["name"],
-      uri: mockData["items"][4]["uri"],
-      extension: mockData["items"][4]["extension,"],
-      drm_scheme: mockData["items"][4]["drm_scheme"],
-      drm_license_url: mockData["items"][4]["drm_license_url,"],
-      ad_tag_uri: mockData["items"][4]["ad_tag_uri,"],
-      spherical_stereo_mode: mockData["items"][4]["spherical_stereo_mode,"],
-      playlist: mockData["items"][4]["playlist"],
-    )));
+        VideoPlayerController.exoplayerMeidaFrameWork(_mediaContent));
   }
 
   @override
